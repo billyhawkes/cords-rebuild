@@ -1,0 +1,1 @@
+source scripts/.env.sh && uvicorn main:app --workers 1 --port 8000
